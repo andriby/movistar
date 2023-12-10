@@ -194,9 +194,10 @@ body{
     text-align: center;
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     border-radius: 10px 0 0 10px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, .2);
+    padding: 0 .5rem;
 }
 
 #products .cards .card .card-body{
@@ -356,8 +357,20 @@ body{
     font-weight: 500;
 }
 
-#gallery{
-    margin-top: 5rem;
+#gallery h2{
+    color: #161A42;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-weight: 300;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 8rem;
+}
+
+#gallery-images{
+    margin-top: 1rem;
     box-shadow: 0 0 15px rgba(0, 0, 0, .4);
     width: 100%;
     height: 80vh;
@@ -366,7 +379,7 @@ body{
     align-items: center;
 }
 
-#gallery div{
+#gallery-images div{
     width: 33.3%;
     display: flex;
     flex-direction: column;
@@ -374,28 +387,28 @@ body{
     justify-content: center;
 }
 
-#gallery .internet{
+#gallery-images .internet{
     height: 100%;
     background-image: url(../assets/internet.jpg);
     background-size: cover;
     filter: drop-shadow(1);
 }
 
-#gallery .phone{
+#gallery-images .phone{
     height: 100%;
     background-image: url(../assets/linea-movil.jpg);
     background-size: cover;
     filter: drop-shadow(1);
 }
 
-#gallery .telephone{
+#gallery-images .telephone{
     height: 100%;
     background-image: url(../assets/telefono-fijo.jpg);
     background-size: cover;
     filter: drop-shadow(1);
 }
 
-#gallery div h2{
+#gallery-images div h2{
     color: #fff;
     -webkit-text-stroke: #000 1px;
     font-family: 'Open Sans', sans-serif;
