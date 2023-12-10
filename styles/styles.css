@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@500;600&family=Poppins:wght@300;400&family=Rethink+Sans:wght@400;500&family=Roboto:wght@400;500;700&display=swap');
 /* 
 fonts:
     font-family: 'Lato', sans-serif;
@@ -29,6 +28,14 @@ body{
     height: 120vh;
     background: rgb(240,240,240);
     background: linear-gradient(0deg, rgba(240,240,240,1) 0%, rgba(47,110,247,1) 42%, rgba(0,36,179,1) 96%);
+}
+
+.main{
+    background: rgb(189,189,189);
+    background: linear-gradient(0deg, rgba(189,189,189,1) 19%, rgba(232,232,232,1) 51%, rgba(240,240,240,1) 68%);
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
 }
 
 .bar{
@@ -124,8 +131,10 @@ body{
 }
 
 .right p{
-    font-family: 'Lato', sans-serif;
-    padding: 1rem;
+    font-family: 'Rethink Sans', sans-serif;
+    font-weight: 500;
+    padding: .5rem;
+    font-size: 1.1rem;
 }
 
 #products{
@@ -199,8 +208,9 @@ body{
     gap: 1.5rem;
 }
 
-#products .cards .card button{
+#products .cards .card a{
     width: 25%;
+    text-decoration: none;
     padding: .75rem 1.05rem;
     font-size: 1.1rem;
     border: none;
@@ -248,13 +258,17 @@ body{
 }
 
 #movistar_plus .card .movistar_plus-title p{
+    font-family: 'Rethink Sans', sans-serif;
+    font-weight: 500;
     font-size: 1rem;
     text-align: center;
 }
 
-#movistar_plus .card .movistar_plus-title button{
+#movistar_plus .card .movistar_plus-title a{
     width: 25%;
+    text-align: center;
     padding: .75rem 1.05rem;
+    text-decoration: none;
     font-size: 1.1rem;
     border: none;
     border-radius: 5px;
@@ -322,6 +336,7 @@ body{
 #user_actives .numbers{
     display: flex;
     flex-direction: row;
+    gap: 1rem;
     justify-content: space-evenly;
     width: 30%;
 }
@@ -340,7 +355,7 @@ body{
 #gallery{
     margin-top: 5rem;
     width: 100%;
-    height: 60vh;
+    height: 80vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -354,10 +369,32 @@ body{
     justify-content: center;
 }
 
+#gallery .internet{
+    height: 100%;
+    background-image: url(../assets/internet.jpg);
+    background-size: cover;
+    filter: drop-shadow(1);
+}
+
+#gallery .phone{
+    height: 100%;
+    background-image: url(../assets/linea-movil.jpg);
+    background-size: cover;
+    filter: drop-shadow(1);
+}
+
+#gallery .telephone{
+    height: 100%;
+    background-image: url(../assets/telefono-fijo.jpg);
+    background-size: cover;
+    filter: drop-shadow(1);
+}
+
 #gallery div h2{
     color: #fff;
+    -webkit-text-stroke: #000 1px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     text-align: center;
     font-size: 3.5rem;
     letter-spacing: 4px;
