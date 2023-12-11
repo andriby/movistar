@@ -440,14 +440,16 @@ body{
     font-family: 'Lato', sans-serif;
     font-weight: 500;
 }
+
+#footer{
+    background-color: #161A42;
+    padding: 5rem  0 .5rem 0; 
+}
+
 .copyright{
     width: 100%;
     text-align: center;
-    background-color: #161A42;
     color: #fff;
     text-transform: uppercase;
-    padding: .5rem 0;
     font-family: 'Lato', sans-serif;
-    padding: 5rem 0;
-
 }
